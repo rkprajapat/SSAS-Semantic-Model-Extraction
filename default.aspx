@@ -8,7 +8,7 @@
 <script type="text/javascript">
     function ExcelLoad(instance,catalog,cube) {
         
-      window.open("http://vfmstest001/ExcelLoad.aspx?instance=" + instance + "&catalog=" + catalog + "&cube=" + cube);
+      window.open("http://<servername>/ExcelLoad.aspx?instance=" + instance + "&catalog=" + catalog + "&cube=" + cube);
       return false;
     }
 
